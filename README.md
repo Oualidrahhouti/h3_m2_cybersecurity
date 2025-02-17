@@ -24,7 +24,7 @@ In the terminal, run:
 
 ```bash
 python tcp_socket.py
-
+```
 The server will output:
 
 
@@ -33,8 +33,9 @@ It is now waiting for a connection from a client.
 
 Run the Client
 Open a new terminal window (keeping the server running) and navigate to the project directory. Run:
-
+```
 python client_socket.py
+```
 You should see output similar to:
 
 Received from server: Hello, server!
